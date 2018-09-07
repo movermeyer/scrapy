@@ -34,7 +34,7 @@ Request objects
     :type url: string
 
     :param callback: the function that will be called with the response of this
-       request (once its downloaded) as its first parameter. For more information
+       request (once it's downloaded) as its first parameter. For more information
        see :ref:`topics-request-response-ref-request-callback-arguments` below.
        If a Request doesn't specify a callback, the spider's
        :meth:`~scrapy.spiders.Spider.parse` method will be used.
